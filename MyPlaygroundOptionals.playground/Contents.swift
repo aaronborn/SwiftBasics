@@ -49,8 +49,9 @@ for i in 0...counter
     print(i)
 }
 
-/*
-if str2 != nil {
-    print{str2 as Any}
+struct Go{
+    var row = 0
+    var column = 0
 }
-*/
+
+var stone1 = Go()
