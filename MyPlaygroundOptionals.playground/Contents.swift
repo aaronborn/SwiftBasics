@@ -34,6 +34,21 @@ func myfunc(num1: Int, num2:Int, num3:Int) ->Int
 }
 
 var myhier = myfunc(num1: 4, num2: 4, num3: 4)
+
+if empty
+{
+    
+} else {
+    
+}
+
+
+var counter:Int = 4
+for i in 0...counter
+{
+    print(i)
+}
+
 /*
 if str2 != nil {
     print{str2 as Any}
