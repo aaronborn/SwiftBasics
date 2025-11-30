@@ -13,6 +13,27 @@ str2 = "hi"
 print(str2 ?? "Not a word")
 
 
+var empty = str2.isEmpty
+print(empty)
+
+var gender: String? //= "male"
+print(gender ?? "Not a word")
+
+var generofcustomer = gender ?? "male"
+print(generofcustomer)
+
+func doSomething(num: Int) -> Int
+{
+   print(num)
+    return 444
+}
+
+func myfunc(num1: Int, num2:Int, num3:Int) ->Int
+{
+    return num1+num2+num3
+}
+
+var myhier = myfunc(num1: 4, num2: 4, num3: 4)
 /*
 if str2 != nil {
     print{str2 as Any}
